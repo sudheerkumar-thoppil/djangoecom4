@@ -1,0 +1,125 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, rgb(232, 234, 241),rgb(134, 150, 238));
+    /* background-color: darkred ; */
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    
+       
+}
+
+.main_screen{
+        
+   width: 100%;
+   height: auto;
+   background-image: url("images/bg.jpg");
+   background-size: cover;
+  
+   
+    
+}
+p{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.navbar ul {
+    display: inline;
+    font-size: larger;
+       
+}
+.navbar{
+    padding: 40px;
+    
+}
+img{
+    border-radius: 10px;
+    width: 240px;
+    height: 240px;
+    margin-left: 45px;
+}
+.card{
+    width: 25%;
+    height: 380px;
+    display: inline-block;
+   margin: 20px 40px;
+   justify-content: center;
+   
+   
+   white-space: normal;
+   box-shadow: green;
+   
+   
+    
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    color: rgb(172, 173, 252);
+    background-image: linear-gradient(rgb(236, 240, 245),rgb(345, 340, 245));
+    border-style: solid;
+    /* border-color: rgb(131, 52, 184); */
+    
+}
+h1 :hover{
+    color: green;
+}
+.productname{
+    text-align: center;
+    font-size: 30px;
+}
+.nav-item a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+a.card-link {
+    font-size: 25px;
+    text-decoration: none;
+
+    
+}
+a.card-link :hover{
+    color: rgb(88, 241, 88);
+}
+.card :hover{
+    opacity: 0.7;
+}
+
+span{
+    color: chartreuse;
+   font-style: italic;
+   font-family: cursiv;
+   font-weight: bolder;
+   font-size: 170px;
+}
+ #btn{
+    height: 50px;
+    width: 100px;
+    font-size: larger;
+    margin-left: 0px;
+    
+}
+#cart_count{
+    display: inline;
+    font-size: larger;
+   
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color:transparent;
+    font-size: 25px;
+}
+.footer li{
+    margin: 5px;
+    display: inline;
+    color: red;
+    
+    
+}
